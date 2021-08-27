@@ -1,0 +1,24 @@
+﻿2021-08-27 18:33:40.093 +03:00 [INF] User profile is available. Using 'C:\Users\bilgel\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-08-27 18:33:40.382 +03:00 [INF] Now listening on: https://localhost:5001
+2021-08-27 18:33:40.382 +03:00 [INF] Now listening on: http://localhost:5000
+2021-08-27 18:33:40.382 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-27 18:33:40.382 +03:00 [INF] Hosting environment: Development
+2021-08-27 18:33:40.382 +03:00 [INF] Content root path: C:\Users\bilgel\source\repos\SeriLogDemo\SeriLogDemo
+2021-08-27 18:33:41.021 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2021-08-27 18:33:41.038 +03:00 [INF] Executing endpoint 'SeriLogDemo.Controllers.HomeController.Index (SeriLogDemo)'
+2021-08-27 18:33:41.068 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SeriLogDemo.Controllers.HomeController (SeriLogDemo).
+2021-08-27 18:33:41.085 +03:00 [INF] Executing ViewResult, running view Index.
+2021-08-27 18:33:41.161 +03:00 [INF] Executed ViewResult - view Index executed in 80.223ms.
+2021-08-27 18:33:41.163 +03:00 [INF] Executed action SeriLogDemo.Controllers.HomeController.Index (SeriLogDemo) in 95.0572ms
+2021-08-27 18:33:41.163 +03:00 [INF] Executed endpoint 'SeriLogDemo.Controllers.HomeController.Index (SeriLogDemo)'
+2021-08-27 18:33:41.167 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - text/html;+charset=utf-8 148.1584ms
+2021-08-27 18:33:41.179 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2021-08-27 18:33:41.179 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/js/site.js - -
+2021-08-27 18:33:41.179 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/jquery/dist/jquery.min.js - -
+2021-08-27 18:33:41.179 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/css/site.css - -
+2021-08-27 18:33:41.179 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css - -
+2021-08-27 18:33:41.180 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 404 0 - 1.4166ms
+2021-08-27 18:33:41.180 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/lib/jquery/dist/jquery.min.js - - - 404 0 - 1.4129ms
+2021-08-27 18:33:41.180 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/js/site.js - - - 404 0 - 1.1729ms
+2021-08-27 18:33:41.180 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css - - - 404 0 - 1.1054ms
+2021-08-27 18:33:41.180 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/css/site.css - - - 404 0 - 1.3620ms
